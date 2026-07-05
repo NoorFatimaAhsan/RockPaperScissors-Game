@@ -24,5 +24,5 @@ Play against the system and see who reaches the highest score!
 ---
 ## Live Demo
 
- Play the game here: https://tangerine-heliotrope-7a0d96.netlify.app/
+ Play the game here: https://ornate-frangollo-f8b09e.netlify.app/
 
