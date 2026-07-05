@@ -1,0 +1,62 @@
+*{
+    background-color: rgb(225, 238, 240);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+    margin: 3rem;
+}
+.choice:hover{
+    /* /* opacity: 0.5; transulcent krne ke lie */
+    cursor: pointer;
+    border: white;
+    border: solid black;
+}
+
+.choice{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 2rem;
+    gap:6rem;
+}
+#user_score,#system_score{
+    font-size: 3rem;
+}
+
+#msg{
+ background-color: #081b31;
+ color: white;
+ font-size: 1.5rem;
+ display: inline;
+ padding: 1rem;
+ border-radius: 1rem;
+}
